@@ -3,17 +3,13 @@ import ButtonComponent from  "./components/funtional/button/button-component"
 import ImageComponent from "./components/funtional/image/image-component"
 import OrderedList from "./components/funtional/list/ordered/ordered-list";
 import UnorderedList from "./components/funtional/list/un-ordered/un-ordered-list";
+import JsxFunctional from "./components/funtional/jsx/jsxFunctional";
 
 function App() {
   return (
     <div>
-      <ButtonComponent/>
-      <ImageComponent/>
-      <OrderedList/>
-      <UnorderedList/>
-    <h2>hello</h2>
-    <h2>hello</h2>
-  <h3>Task completed</h3>
+      <JsxFunctional></JsxFunctional>
+      
     </div>
   );
 }
