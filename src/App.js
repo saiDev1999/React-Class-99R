@@ -1,5 +1,5 @@
 
-import ButtonComponent from  "./components/funtional/button/button-component"
+import ButtonComponent from "./components/funtional/button/button-component"
 import ImageComponent from "./components/funtional/image/image-component"
 import OrderedList from "./components/funtional/list/ordered/ordered-list";
 import UnorderedList from "./components/funtional/list/un-ordered/un-ordered-list";
@@ -8,8 +8,11 @@ import JsxFunctional from "./components/funtional/jsx/jsxFunctional";
 function App() {
   return (
     <div>
+
+
       <JsxFunctional></JsxFunctional>
-      
+      <h3>Space added</h3>
+
     </div>
   );
 }
