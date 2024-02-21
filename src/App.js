@@ -1,18 +1,14 @@
-
-import ButtonComponent from "./components/funtional/button/button-component"
-import ImageComponent from "./components/funtional/image/image-component"
-import OrderedList from "./components/funtional/list/ordered/ordered-list";
-import UnorderedList from "./components/funtional/list/un-ordered/un-ordered-list";
-import JsxFunctional from "./components/funtional/jsx/jsxFunctional";
+import Devendra,{ComponentB as Sudheer,ComponentC} from "../src/components/funtional/exports-imports/export"
 
 function App() {
   return (
     <div>
+      <Devendra></Devendra>
+      <Sudheer/>
+      <ComponentC/>
 
 
-      <JsxFunctional></JsxFunctional>
-      <h3>Space added</h3>
-      <h4>Another text added</h4>
+      
 
     </div>
   );
