@@ -1,4 +1,5 @@
 import Devendra,{ComponentB as Sudheer,ComponentC} from "../src/components/funtional/exports-imports/export"
+import ConditionalRender from "./components/funtional/conditional-render";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Sudheer/>
       <ComponentC/>
 
-
+     <ConditionalRender/>
       
 
     </div>
