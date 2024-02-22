@@ -1,18 +1,14 @@
-
-import ButtonComponent from "./components/funtional/button/button-component"
-import ImageComponent from "./components/funtional/image/image-component"
-import OrderedList from "./components/funtional/list/ordered/ordered-list";
-import UnorderedList from "./components/funtional/list/un-ordered/un-ordered-list";
-import JsxFunctional from "./components/funtional/jsx/jsxFunctional";
+import Devendra,{ComponentB as Sudheer,ComponentC} from "../src/components/funtional/exports-imports/export"
+import ConditionalRender from "./components/funtional/conditional-render";
+import TodoList from "./components/funtional/styles";
+import "./App.css"
+import ContentPage from "./components/funtional/styles/bootstrap /content";
 
 function App() {
   return (
     <div>
-
-
-      <JsxFunctional></JsxFunctional>
-      <h3>Space added</h3>
-      <h4>Another text added</h4>
+<ContentPage/>
+      
 
     </div>
   );
