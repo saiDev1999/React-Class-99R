@@ -1,14 +1,13 @@
 import Devendra,{ComponentB as Sudheer,ComponentC} from "../src/components/funtional/exports-imports/export"
 import ConditionalRender from "./components/funtional/conditional-render";
+import TodoList from "./components/funtional/styles";
+import "./App.css"
+import ContentPage from "./components/funtional/styles/bootstrap /content";
 
 function App() {
   return (
     <div>
-      <Devendra></Devendra>
-      <Sudheer/>
-      <ComponentC/>
-
-     <ConditionalRender/>
+<ContentPage/>
       
 
     </div>
