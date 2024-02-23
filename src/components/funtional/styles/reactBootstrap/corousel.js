@@ -41,6 +41,7 @@ export default Corousel;
 
 
 // Tasks:
-// 1. Repea the class 
+// 1. Repeat the class 
 // 2. React-bootstrap create a components --> spinners,tables , modals,navbar , toasts 
 // 3. take mock from fake json and reuse components by using props 
+// 4. React documentation for props
