@@ -2,12 +2,17 @@ import Devendra,{ComponentB as Sudheer,ComponentC} from "../src/components/funti
 import ConditionalRender from "./components/funtional/conditional-render";
 import TodoList from "./components/funtional/styles";
 import "./App.css"
-import ContentPage from "./components/funtional/styles/bootstrap /content";
+import ContentPage from "./components/funtional/styles/bootstrap/content";
+import AccordionComponent from "./components/funtional/styles/reactBootstrap/accordion";
+import Corousel from "./components/funtional/styles/reactBootstrap/corousel";
 
 function App() {
   return (
     <div>
-<ContentPage/>
+      <Corousel/>
+      {/* <AccordionComponent/> */}
+
+
       
 
     </div>

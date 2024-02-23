@@ -1,9 +1,13 @@
 
 
 
-const ImageComponent =()=>{
+const ImageComponent =(props)=>{
+    const {imageURL,dimensions}=props
+
+    console.log(imageURL,"imageURL FROM image component")
+
     return(
-        <img  src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" width={100} height={100} />
+        <img  src={imageURL} width={dimensions.width} height={dimensions.height} />
 
     )
 }

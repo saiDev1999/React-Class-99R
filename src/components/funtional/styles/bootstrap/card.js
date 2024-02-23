@@ -1,14 +1,16 @@
 
 import ImageComponent from "../../image/image-component"
 
-const Card=()=>{
+const Card=(prop)=>{
+  const {title,category,image,dimensions}=prop.item
     return(
         <div className="card" style={{ width: "100%" }}>
-            <ImageComponent/>
+            <ImageComponent imageURL={image}  dimensions={dimensions} />
             
   <div className="card-body">
-    <h4 className="card-title">John Doe</h4>
-    <p className="card-text">Some example text.</p>
+  <h3 className="card-text">{category}</h3>
+    <h4 className="card-title">{title}</h4>
+
     <a href="#" className="btn btn-primary">
       See Profile
     </a>
