@@ -8,12 +8,13 @@ import Corousel from "./components/funtional/styles/reactBootstrap/corousel";
 import Profile from "./components/funtional/props/profile";
 import UnorderedList from "./components/funtional/list/un-ordered/un-ordered-list";
 import Counter from "./components/funtional/state/counter";
+import UsersData from "./components/funtional/axios/users";
 
 function App() {
   return (
    
 
- <Counter message="Hello world" />
+  <UsersData/>
 
 
       
