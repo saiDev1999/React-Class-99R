@@ -11,4 +11,19 @@ we can also see the dependency versions here  -->
 
 <pre><code>
 console.log("hello world)
+
+render() {
+  return (
+    <form onSubmit={this.handleSubmit}>
+      <label>
+        User Name:
+        <input
+          defaultValue="John"
+          type="text"
+          ref={this.input} />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  );
+}
 </code></pre>
