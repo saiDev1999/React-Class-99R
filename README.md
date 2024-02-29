@@ -10,7 +10,5 @@ we can also see the dependency versions here  -->
 <!-- node modules : it is set of auto generated files , in which dependency code will be installed  -->
 
 <pre><code>
-def hello_world():
-    print("Hello, World!")
-hello_world()
+console.log("hello world)
 </code></pre>
