@@ -14,6 +14,8 @@ import AudioSpinner from "./components/funtional/spinners/audio-spinner";
 import DNASpinner from "./components/funtional/spinners/dna-spinner";
 import UpdatingPhase from "./components/funtional/lifeCycle/updatingPhase";
 import Parent from "./components/funtional/lifeCycle/unMountingPhase";
+import ParentComponent from "./components/funtional/pureComponents/parent";
+import CircleTask from "./components/circleTask/circle-task";
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
 
 {/* <MountingPhase   favColor="blue"  />
 <UpdatingPhase/> */}
-<Parent/>
+{/* <ParentComponent/> */}
+<CircleTask/>
 </>
 
 
@@ -34,6 +37,10 @@ function App() {
 }
 
 export default App;
+
+
+// react introduced hooks concept in functional component in 16.8 version 2018 
+// functional based components we are using as container layer oor functional layer 
 
 
 
