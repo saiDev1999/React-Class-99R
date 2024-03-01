@@ -28,5 +28,16 @@
 
 // 2. Updating phase : whenever component updated in the dom , we can call it as updating phase 
 
-// 3. Unmounting phase 
+// 5 methods :
+
+// 1. getDerivedStateFromProps
+// 2. render 
+// 3. shouldComponentUpdate 
+// 4. component did update ----> it is used to perform side effects in updating 
+// 5. getSnapShotBeforeUpdate ->  to check the prop and state value before update 
+
+
+
+// 3. Unmounting phase : whenver component removed from dom , we call it as unmounting phase 
+// 1. componentWillUnmount
 

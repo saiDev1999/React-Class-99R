@@ -2,39 +2,40 @@ import axios from "axios";
 import React, { Component } from "react";
 import DNASpinner from "../spinners/dna-spinner";
 
-
-
-
-
-
 class MountingPhase extends Component{
     constructor(){
         console.log("constructor")
         super()
         this.state={
             message:"Good morning",
-            users:[]
+            users:[],
+            color:"red"
         }
     }
 
     componentDidMount(){
         //it will execute only once in a life cycle 
         console.log("component did mount")
-       axios.get("https://dummyjson.com/users")
-       .then(response=>{
-        this.setState({
-            users:response.data.users
-        })
-       })    
+    //    axios.get("https://dummyjson.com/users")
+    //    .then(response=>{
+    //     this.setState({
+    //         users:response.data.users
+    //     })
+    //    })    
 
        }
+
+       static getDerivedStateFromProps(props, state) {
+        console.log("getDerivedStateFromProps")
+        return {color: props.favColor };
+      }
 
     render(){
         console.log("render")
         return(
             <>
-            <h3>hello world</h3>
-            {
+            <h3 style={{color:this.state.color}}  >hello world</h3>
+            {/* {
          this.state.users.length>0
          ?
 
@@ -51,7 +52,7 @@ class MountingPhase extends Component{
             <DNASpinner/>
             <h1>Please data fetching</h1>
             </>
-            }
+            } */}
 
               
             </>

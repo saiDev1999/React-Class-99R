@@ -12,13 +12,19 @@ import UsersData from "./components/funtional/axios/users";
 import MountingPhase from "./components/funtional/lifeCycle/mountingPhase";
 import AudioSpinner from "./components/funtional/spinners/audio-spinner";
 import DNASpinner from "./components/funtional/spinners/dna-spinner";
+import UpdatingPhase from "./components/funtional/lifeCycle/updatingPhase";
+import Parent from "./components/funtional/lifeCycle/unMountingPhase";
 
 function App() {
   return (
    
+<>
 
 
-<MountingPhase/>
+{/* <MountingPhase   favColor="blue"  />
+<UpdatingPhase/> */}
+<Parent/>
+</>
 
 
       
