@@ -16,6 +16,9 @@ import UpdatingPhase from "./components/funtional/lifeCycle/updatingPhase";
 import Parent from "./components/funtional/lifeCycle/unMountingPhase";
 import ParentComponent from "./components/funtional/pureComponents/parent";
 import CircleTask from "./components/circleTask/circle-task";
+import UseStateExample1 from "./components/funtional/hooks/useStateEx1";
+import UseStateExample2 from "./components/funtional/hooks/useStateEx2";
+import UseStateExmple3 from "./components/funtional/hooks/useStateEx3";
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
 {/* <MountingPhase   favColor="blue"  />
 <UpdatingPhase/> */}
 {/* <ParentComponent/> */}
-<CircleTask/>
+{/* <CircleTask/> */}
+{/* <UseStateExample1/> */}
+{/* <UseStateExample2/> */}
+<UseStateExmple3/>
 </>
 
 
