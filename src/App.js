@@ -19,6 +19,8 @@ import CircleTask from "./components/circleTask/circle-task";
 import UseStateExample1 from "./components/funtional/hooks/useStateEx1";
 import UseStateExample2 from "./components/funtional/hooks/useStateEx2";
 import UseStateExmple3 from "./components/funtional/hooks/useStateEx3";
+import UncontrolledCompo from "./components/funtional/forms/uncontrolled";
+import Controlled from "./components/funtional/forms/controlled";
 
 function App() {
   return (
@@ -26,13 +28,7 @@ function App() {
 <>
 
 
-{/* <MountingPhase   favColor="blue"  />
-<UpdatingPhase/> */}
-{/* <ParentComponent/> */}
-{/* <CircleTask/> */}
-{/* <UseStateExample1/> */}
-{/* <UseStateExample2/> */}
-<UseStateExmple3/>
+<Controlled/>
 </>
 
 
