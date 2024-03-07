@@ -21,15 +21,14 @@ import UseStateExample2 from "./components/funtional/hooks/useStateEx2";
 import UseStateExmple3 from "./components/funtional/hooks/useStateEx3";
 import UncontrolledCompo from "./components/funtional/forms/uncontrolled";
 import Controlled from "./components/funtional/forms/controlled";
+import UseEffectEx1 from "./components/funtional/hooks/useEffect/useEffectEx1";
+import UseEffectEx2 from "./components/funtional/hooks/useEffect/useEffect2";
+import UseEffectEx3 from "./components/funtional/hooks/useEffect/useEffectEx2";
 
 function App() {
   return (
    
-<>
-
-
-<Controlled/>
-</>
+<UseEffectEx3/>
 
 
       
