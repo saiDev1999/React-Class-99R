@@ -24,15 +24,11 @@ import Controlled from "./components/funtional/forms/controlled";
 import UseEffectEx1 from "./components/funtional/hooks/useEffect/useEffectEx1";
 import UseEffectEx2 from "./components/funtional/hooks/useEffect/useEffect2";
 import UseEffectEx3 from "./components/funtional/hooks/useEffect/useEffectEx2";
+import NavigationStack from "./navigation/navigation";
 
 function App() {
   return (
-   
-<UseEffectEx3/>
-
-
-      
-
+   <NavigationStack/>
 
   );
 }

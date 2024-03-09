@@ -1,0 +1,24 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.product-card {
+    width: calc((100% / 3) - 20px); /* Subtract any margins you're applying to ensure they fit */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    height: auto;
+
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 200px; /* Adjust or remove as necessary to fit the design */
+    height: auto;
+    margin-bottom: 10px;
+}
