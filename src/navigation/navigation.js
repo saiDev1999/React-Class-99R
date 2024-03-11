@@ -4,6 +4,7 @@ import AboutScreen from "../pages/about-screen"
 import ContactScreen from "../pages/contact-screen"
 import SettingScreen from "../pages/setting-screen"
 import ProductScree from "../pages/product-detail"
+import InvalidScreen from "../pages/invalid-screen"
 
 
 
@@ -21,6 +22,8 @@ const NavigationStack =()=>{
         <Route  path="/setting" Component={SettingScreen}  />
 
         <Route path="/:category/:product" Component={ProductScree} />
+
+        <Route  path="*" Component={InvalidScreen} />
 
         </Routes>
 
